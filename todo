@@ -1,0 +1,10 @@
+create a readme for configuration and setup / running
+
+
+specific configuration  google api and cloud token in lib/encounters.rb
+twitter/groupme/slack tokens in config/environment
+look into fences as duplicates in fences1.json and config.json.example - is fences dir necesary? as geofence.rb seems like it will cause an error if it doesnt load from that path and not just the config file?
+move global config variables to config ie google api key, cloud token, garbage pokemon variable, twitter time limit/queue amount - make global for all services
+include gym/raid notifications
+create variables for useGroupMe useTwitter useSlack and dont halt if those specific vars ie twitter secret key are not set
+

@@ -1,0 +1,8 @@
+TWITTER_ACCESS_TOKEN=##insertacesstokenhere#
+TWITTER_ACCESS_SECRET=##insertsecretkeyhere#
+TWITTER_CONSUMER_KEY=##insertconsumerkeyhere#
+TWITTER_CONSUMER_SECRET=##insertconsumersecrethere#
+
+SLACK_API_TOKEN=##insertslackapitokenhere#
+
+groupme_token=##insertgroupmetokenhere#
