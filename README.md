@@ -35,7 +35,7 @@ Installation:
   7. run ./start.sh
   8. point your webhooks to http://localhost:8000/webhook/notify/sourcename   where sourcename matches a source in config.json
   9. make sure port 4567 is not in use as thats currently hardcoded in as bind port, also default binds to 0.0.0.0
-  
+  10. if you dont want to use all groupme, twitter and slack, edit line 21 in server.rb on which services you want enabled.
   
 Pull Requests:
   Feel free and submit any for review to help improve this project. Thanks
